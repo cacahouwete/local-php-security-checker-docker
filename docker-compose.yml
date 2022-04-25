@@ -1,7 +1,7 @@
 services:
   app:
-    image: cacahouete/local-php-security-checker-docker:2.0.0
+    image: cacahouete/local-php-security-checker-docker:2.0.2
     build:
       context: .
       args:
-        - BIN_URL=https://github.com/fabpot/local-php-security-checker/releases/download/v2.0.0/local-php-security-checker_2.0.0_linux_amd64
+        - BIN_URL=https://github.com/fabpot/local-php-security-checker/releases/download/v2.0.2/local-php-security-checker_2.0.2_linux_amd64
